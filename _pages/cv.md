@@ -8,4 +8,4 @@ redirect_from:
 ---
 
 <!-- Currently my CV is available upon request. -->
-<!-- [Download CV here](../files/Zihao_Wang.pdf) -->
+[Download CV here](../files/zihao_wang.pdf)

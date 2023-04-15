@@ -15,4 +15,4 @@ In this paper, we introduce a formalization of ``what the user intended'' in ter
 This formalization allows us to identify some fundamental limitations of prompting. We then use the formalism to develop \emph{concept algebra} to overcome these limitations. 
 Concept algebra is a way of directly manipulating the concepts expressed in the output through algebraic operations on a suitably defined representation of input prompts. 
 We give examples using concept algebra to overcome limitations of prompting, including concept transfer through arithmetic, and concept nullification through projection.
-Code available at \url{https://github.com/zihao12/concept-algebra}.
+Code available at (concept-algebra)[https://colab.research.google.com/github/zihao12/concept-algebra/blob/main/concept-algebra.ipynb]. 

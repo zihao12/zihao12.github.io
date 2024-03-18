@@ -1,0 +1,10 @@
+---
+title: "Transforming and Combining Rewards for Aligning Large Language Models"
+collection: publications
+permalink: publication/2024-02-01-Transforming-and-Combining-Rewards-for-Aligning-Large-Language-Models
+date: 2024-02-01
+venue: 'Arxiv prepint'
+paperurl: 'https://arxiv.org/abs/2402.00742'
+citation: 'Zihao Wang, Chirag Nagpal, Jonathan Berant, Jacob Eisenstein, Alex D'Amour, Sanmi Koyejo, Victor Veitch "Transforming and Combining Rewards for Aligning Large Language Models." arXiv preprint arXiv:2402.00742 (2024).'
+---
+A common approach for aligning language models to human preferences is to first learn a reward model from preference data, and then use this reward model to update the language model. We study two closely related problems that arise in this approach. First, any monotone transformation of the reward model preserves preference ranking; is there a choice that is ``better'' than others? Second, we often wish to align language models to multiple properties: how should we combine multiple reward models? Using a probabilistic interpretation of the alignment procedure, we identify a natural choice for transformation for (the common case of) rewards learned from Bradley-Terry preference models. This derived transformation has two important properties. First, it emphasizes improving poorly-performing outputs, rather than outputs that already score well. This mitigates both underfitting (where some prompts are not improved) and reward hacking (where the model learns to exploit misspecification of the reward model). Second, it enables principled aggregation of rewards by linking summation to logical conjunction: the sum of transformed rewards corresponds to the probability that the output is "good" in all measured properties, in a sense we make precise. Experiments aligning language models to be both helpful and harmless using RLHF show substantial improvements over the baseline (non-transformed) approach.

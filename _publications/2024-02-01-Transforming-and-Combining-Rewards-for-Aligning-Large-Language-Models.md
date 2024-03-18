@@ -1,7 +1,7 @@
 ---
 title: "Transforming and Combining Rewards for Aligning Large Language Models"
 collection: publications
-permalink: publication/2024-02-01-Transforming-and-Combining-Rewards-for-Aligning-Large-Language-Models
+permalink: /publication/2024-02-01-Transforming-and-Combining-Rewards-for-Aligning-Large-Language-Models
 date: 2024-02-01
 venue: 'Arxiv prepint'
 paperurl: 'https://arxiv.org/abs/2402.00742'
